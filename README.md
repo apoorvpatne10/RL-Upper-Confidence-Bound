@@ -12,3 +12,7 @@ for the user, i.e, the ad with highest conversion rate, the CTR(Click Through Ra
 In the dataset used, each row represents a user on the social network
 each column represents a version of ad. 0 means the user didn't click the ad, 
 and 1 obviously means the user did click it for more info.
+
+## Plot
+Based on the given dataset, ad #5 turns out to be the one with highest conversion rate. 
+![alt text](https://i.imgur.com/rRIcUqu.png)
