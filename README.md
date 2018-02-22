@@ -13,6 +13,11 @@ In the dataset used, each row represents a user on the social network
 each column represents a version of ad. 0 means the user didn't click the ad, 
 and 1 obviously means the user did click it for more info.
 
-## Plot
-Based on the given dataset, ad #5 turns out to be the one with highest conversion rate. 
+## Plot for random selection
+So this random selection algo randomly selected an ad in each round and generated a reward. It's quite difficult to tell
+which ad was the most successful one, since random results are obtained after each iteration of this simple algorithm.
+![alt text](https://i.imgur.com/pB63yOQ.png)
+
+## Plot for results UCB algo
+Based on the given dataset, using UCB the results are clear cut and it turns out that ad #5 is the one with highest conversion rate. 
 ![alt text](https://i.imgur.com/rRIcUqu.png)
